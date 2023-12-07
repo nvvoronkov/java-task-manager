@@ -1,0 +1,17 @@
+version: "3"
+services:
+  postgres:
+    image: postgres:15
+    container_name: database
+    environment:
+      MYSQL_ROOT_PASSWORD: user
+      MYSQL_PASSWORD: 123456
+      MYSQL_DATABASE: base
+
+  app:
+    build: ./
+    container_name: java
+    environment:
+      spring.datasource.url: jdbc:postgresql://postgres:3306/example
+    ports:
+      - "8080:8080"
