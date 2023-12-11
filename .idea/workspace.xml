@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7711c7fa-1973-41c6-a60f-f6b5a2daa320" name="Changes" comment="add service and dto">
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/config/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/exception/ErrorObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/exception/ExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/exception/TaskNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/exception/WrongPasswordException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/repository/CommentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/repository/TaskRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/repository/UserRepository.java" afterDir="false" />
+    <list default="true" id="7711c7fa-1973-41c6-a60f-f6b5a2daa320" name="Changes" comment="add config service and repository">
       <change afterPath="$PROJECT_DIR$/src/main/java/org/example/security/config/ApplicationConfiguration.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/org/example/security/config/AuthEntryPoint.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/org/example/security/controller/AuthenticationController.java" afterDir="false" />
@@ -26,10 +14,8 @@
       <change afterPath="$PROJECT_DIR$/src/main/java/org/example/security/filter/JwtAuthenticationFilter.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/org/example/security/service/AuthenticationService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/org/example/security/service/JwtService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/service/TaskService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/service/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/dto/UserResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/dto/UserResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/repository/TaskRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/repository/TaskRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,12 +92,21 @@
       <option name="project" value="LOCAL" />
       <updated>1702020911084</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add config service and repository">
+      <option name="closed" value="true" />
+      <created>1702305409466</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1702305409466</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add model" />
     <MESSAGE value="add service and dto" />
-    <option name="LAST_COMMIT_MESSAGE" value="add service and dto" />
+    <MESSAGE value="add config service and repository" />
+    <option name="LAST_COMMIT_MESSAGE" value="add config service and repository" />
   </component>
 </project>
